@@ -1,8 +1,8 @@
-# 📊 HR Analytics com SQL
+# 📊 RH Analytics com SQL
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo analisar dados de Recursos Humanos utilizando SQL, explorando métricas importantes como salário, distribuição por departamento, tempo de empresa e taxa de rotatividade (turnover).
+Este projeto tem como objetivo analisar dados de Recursos Humanos utilizando SQL, com foco na geração de insights estratégicos como turnover, distribuição salarial, tempo de empresa e estrutura organizacional.
 
 ---
 
@@ -26,68 +26,41 @@ O banco foi modelado com as seguintes tabelas:
 
 ## 📊 Análises Realizadas
 
-### 🔹 Funcionários por departamento
-
-* Contagem de colaboradores por área
-
-### 🔹 Média salarial
-
-* Média de salário por departamento
-
-### 🔹 Top salários
-
-* Funcionários com maior remuneração
-
-### 🔹 Funcionários acima da média
-
-* Identificação de salários acima da média geral
-
-### 🔹 Ranking salarial
-
-* Classificação utilizando Window Functions
-
-### 🔹 Tempo de empresa
-
-* Cálculo de tempo de permanência
-
-### 🔹 Distribuição salarial
-
-* Classificação em faixas (baixo, médio, alto)
-
-### 🔹 Diferença salarial por gênero
-
-* Comparação de médias
-
-### 🔹 Turnover
-
-* Cálculo da taxa de rotatividade
+* Média salarial por departamento
+* Ranking de salários (Window Functions)
+* Funcionários acima da média salarial
+* Tempo de empresa (cálculo com datas)
+* Distribuição salarial por faixa
+* Diferença salarial por gênero
+* Taxa de turnover
 
 ---
 
-## 🧠 Principais Técnicas Aplicadas
+## 🧠 Técnicas Aplicadas
 
-* JOIN
-* GROUP BY
+* JOIN (relacionamento entre tabelas)
+* GROUP BY (agregações)
 * Subqueries
 * CTE (WITH)
 * Window Functions (RANK)
-* Funções de data (julianday)
+* Funções de data
 
 ---
 
-## 🚀 Insights
+## 🚀 Insights Gerados
 
-* Identificação de disparidade salarial entre departamentos
-* Avaliação de rotatividade
-* Análise de senioridade dos colaboradores
+* Funcionários com maior tempo de empresa tendem a ocupar cargos mais altos
+* Diferenças salariais entre departamentos
+* Identificação de funcionários acima da média salarial
+* Cálculo da taxa de rotatividade (turnover)
 
 ---
 
 ## 📌 Como executar
 
-1. Executar o arquivo `schema.sql`
-2. Executar o arquivo `inserts.sql`
-3. Executar o arquivo `queries.sql`
+1. Executar `schema.sql`
+2. Executar `inserts.sql`
+3. Executar `queries.sql`
 
 ---
 
